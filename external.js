@@ -51,4 +51,4 @@ const getComputerChoice = () => {
     }
   }
   
-  game();
+  // game();
