@@ -1,3 +1,22 @@
+// Targeting the buttons individually
+const rockBtn = document.querySelector("#rock-btn");
+const paperBtn = document.querySelector("#paper-btn");
+const scissorsBtn = document.querySelector("#scissors-btn");
+
+// Adding event listeners to the buttons
+rockBtn.addEventListener("click", function() {
+  // Code to handle the click event for the rock button
+});
+
+paperBtn.addEventListener("click", function() {
+  // Code to handle the click event for the paper button
+});
+
+scissorsBtn.addEventListener("click", function() {
+  // Code to handle the click event for the scissors button
+});
+
+
 const getComputerChoice = () => {
     const choices = ['Rock', 'Paper', 'Scissors'];
     const randomIndex = Math.floor(Math.random() * choices.length);
